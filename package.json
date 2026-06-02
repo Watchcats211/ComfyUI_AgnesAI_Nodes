@@ -1,0 +1,34 @@
+{
+  "name": "ComfyUI_AgnesAI",
+  "version": "1.1.0",
+  "description": "Agnes.ai nodes for ComfyUI with text-to-image, text-to-video, image-to-video, and preview-ready workflows",
+  "main": "js/main.js",
+  "scripts": {
+    "test": "echo \"No test specified\""
+  },
+  "keywords": [
+    "comfyui",
+    "agnes-ai",
+    "text-to-image",
+    "text-to-video",
+    "image-to-video",
+    "ai-generation"
+  ],
+  "author": "tangwenxuan",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "dependencies": {},
+  "comfyUI": {
+    "name": "AgnesAI",
+    "nodes": [
+      "nodes/agnes_config.py",
+      "nodes/agnes_image_to_url.py",
+      "nodes/agnes_text2image.py",
+      "nodes/agnes_text2video.py",
+      "nodes/agnes_image2video.py"
+    ]
+  }
+}
