@@ -1,4 +1,4 @@
-# ComfyUI_AgnesAI
+# ComfyUI_AgnesAI_Nodes
 
 Agnes.ai nodes and example workflows for ComfyUI.  
 Agnes.ai 的 ComfyUI 节点与示例工作流仓库。
@@ -38,7 +38,7 @@ It also ships example workflows for:
 
 ```bash
 cd ~/ComfyUI/custom_nodes
-git clone <your-repo-url> ComfyUI_AgnesAI
+git clone https://github.com/Watchcats211/ComfyUI_AgnesAI_Nodes.git
 ```
 
 Restart ComfyUI after cloning.  

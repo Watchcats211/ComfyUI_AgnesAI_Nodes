@@ -1,5 +1,5 @@
 {
-  "name": "ComfyUI_AgnesAI",
+  "name": "ComfyUI_AgnesAI_Nodes",
   "version": "1.1.0",
   "description": "Agnes.ai nodes for ComfyUI with text-to-image, text-to-video, image-to-video, and preview-ready workflows",
   "main": "js/main.js",
@@ -18,7 +18,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/Watchcats211/ComfyUI_AgnesAI_Nodes.git"
   },
   "dependencies": {},
   "comfyUI": {
